@@ -67,10 +67,10 @@ def run_full_game(deck: list[dict], player: dict, dealer: dict) -> None:
                     closer2 = 21 - dealer_calculate
                     if closer > closer2:
                         print(f"the winner is dealer with {dealer_calculate}")
-                        # return
+
                     elif closer < closer2:
                         print(f"the winner is player with {player_calculate}")
-                        # return
+
                     else:
                         print("Equality")
 
