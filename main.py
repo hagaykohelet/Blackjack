@@ -6,6 +6,5 @@ if __name__ == "__main__":
     shuffle_deck = shuffle_by_suit(deck)
     player = {"hand": []}
     dealer = {"hand": []}
-
     print(run_full_game(shuffle_deck,player,dealer))
 
