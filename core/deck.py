@@ -50,6 +50,7 @@ def shuffle_by_suit(deck: list[dict], swaps: int = 5000) -> list[dict]:
         elif converion_symbols(deck[index2]) == 10:
             if deck[index2]["suite"] != "H" or deck[index2]["suite"] != "D":
                 continue
+
         else:
             deck[index1],deck[index2] = deck[index2],deck[index1]
     return deck
